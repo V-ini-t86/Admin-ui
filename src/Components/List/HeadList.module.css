@@ -1,0 +1,22 @@
+.ulist {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.li {
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.nli {
+  margin-bottom: 10px;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.buttonIcon {
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
