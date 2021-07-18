@@ -1,7 +1,9 @@
 import React from "react";
+import { useStateValue } from "../../StateProvider";
 import classes from "./HeadList.module.css";
 import List from "./List";
-function HeadList({ data }) {
+function HeadList() {
+  const [initialState] = useStateValue();
   return (
     <div>
       <ul className={classes.ulist}>
@@ -15,9 +17,9 @@ function HeadList({ data }) {
           <span>Action</span>
         </li>
         <hr />
-        {data &&
-          data.map((val, i) => {
-            return i < 11 && <List key={i} adata={val} />;
+        {initialState.adminData &&
+          initialState.adminData.map((val, i) => {
+            return i < 10 && <List key={i} adata={val} />;
           })}
       </ul>
     </div>

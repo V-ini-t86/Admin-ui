@@ -1,3 +1,8 @@
+.search__container {
+  display: flex;
+  justify-content: space-around;
+}
+
 .search {
   display: block;
   width: 100%;
@@ -5,4 +10,18 @@
   padding: 0.35rem 0.35rem;
   border-radius: 6px;
   border: 1px solid #ccc;
+}
+
+.btn {
+  display: block;
+  background: none;
+  border: 1px solid #ccc;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0px 5px;
+}
+.btn:hover {
+  background-color: rgb(71, 64, 64);
+  color: #fff;
 }

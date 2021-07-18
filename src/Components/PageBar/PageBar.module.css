@@ -19,3 +19,18 @@
   text-align: center;
   margin: 20px 0px;
 }
+
+.delete {
+  background: none;
+  font-size: large;
+  border: 1px solid orangered;
+  cursor: pointer;
+  margin-right: 40px;
+  border-radius: 50px;
+}
+.delete:hover {
+  color: #fff;
+  background-color: orangered;
+  border: 1px solid #fff;
+  transition: 300ms;
+}
