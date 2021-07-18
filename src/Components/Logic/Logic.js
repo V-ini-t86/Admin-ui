@@ -33,7 +33,7 @@ function reducer(state, action) {
       });
       return { ...state, adminData: deleteFilter };
 
-    case "DELETE_MULTIPLE_ITEM":
+    case "DELETE":
       console.log(state.selectedItems);
       break;
     default:
